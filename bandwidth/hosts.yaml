@@ -1,0 +1,27 @@
+server1.monet:
+    hostname: 172.17.0.2
+    port: 22
+    username: monet
+    password: monet
+    platform: server
+
+server2.monet:
+    hostname: 172.17.0.4
+    port: 22
+    username: monet
+    password: monet
+    platform: server
+
+client1.monet:
+    hostname: 172.17.0.3
+    port: 22
+    username: monet
+    password: monet
+    platform: client
+
+client2.monet:
+    hostname: 172.17.0.5
+    port: 22
+    username: monet
+    password: monet
+    platform: client
