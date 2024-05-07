@@ -23,7 +23,7 @@ func main() {
 	ptrInterface := flag.String("i", "ens33", "capture interface")
 	ptrDelay := flag.String("d", "0", "delay in seconds before starting capture")
 	ptrTshark := flag.Bool("tshark", false, "use tshark instead of tcpdump")
-	ptrBPFilter := flag.String("bpf", "port 6633 or 6633", "capture filter in BPF format")
+	ptrBPFilter := flag.String("bpf", "port 6653 or 6633", "capture filter in BPF format")
 	flag.Parse()
 
 	// Prepare the command string
